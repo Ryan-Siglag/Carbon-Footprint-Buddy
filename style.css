@@ -1,18 +1,60 @@
 html {
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
 }
 
 body {
     background-color: #39ad58;
 }
 
-h1 {
+h1, h2, button {
     color:white;
     text-align: center;
-    font-family:Verdana, Tahoma, sans-serif
+    font-family:Verdana, Tahoma, sans-serif;
+
 }
 
-img {
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 35px;
+}
 
+/* img {
+    compression_level=0;
+} */
+
+label{
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.labelHolder, button{
+    text-align: center;
+    margin:auto;
+}
+
+.labelHolder{
+    padding-top: 8%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: black;
+    height: 60px;
+    width: 200px;
+    font-size: 40px;
+}
+
+input.checkbox{
+    transform: scale(2);
 }
