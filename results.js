@@ -1,3 +1,3 @@
 var total = document.getElementById("total");
-alert(sessionStorage.getItem('total'))
-// total.innerHTML = sessionStorage.getItem('total')
+//alert(sessionStorage.getItem('total'))
+total.innerHTML = "Total: " + sessionStorage.getItem('total')
