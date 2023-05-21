@@ -2,7 +2,7 @@ body {
     background-color: #39ad58;
 }
 
-h1, h2, button {
+h1, h2, h3, button {
     color:white;
     text-align: center;
     font-family:Verdana, Tahoma, sans-serif;
@@ -16,11 +16,21 @@ h1 {
 h2 {
     font-size: 35px;
 }
+h3 {
+    font-size: 30px;
+}
 
 img {
     width: 200px;
     margin:auto;
     padding-bottom: 40px;
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
 }
 
 #speed {
