@@ -22,6 +22,7 @@ dataValues.addEventListener("submit", (e) => {
     var finalText = document.getElementById("total");
     finalText.innerHTML = "Total: " + total;
 
+    sessionStorage.setItem('total', total);
     // alert(dataValues.elements[0].value);
 });
 

@@ -1,1 +1,30 @@
-
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    background-color: deepskyblue;
+    margin: 10px 10px 10px;
+    color:white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  img {
+   float:left;
+    border:groove 10px;
+    border-color: lightskyblue;
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  h2 {
+    color:deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2:hover {
+    color:lightskyblue
+  }
