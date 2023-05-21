@@ -19,7 +19,6 @@ dataValues.addEventListener("submit", (e) => {
             total += multipliers[i];
         }
     }
-    alert(total);
     sessionStorage.setItem('total', total);
     window.location.href = "/results.html"
 });
