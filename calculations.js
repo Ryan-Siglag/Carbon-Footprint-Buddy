@@ -15,16 +15,12 @@ dataValues.addEventListener("submit", (e) => {
         } else {
             total += currVal + -multipliers[i];
         }
-
-        //alert(total);
     }
 
     var finalText = document.getElementById("total");
     finalText.innerHTML = "Total: " + total;
 
     sessionStorage.setItem('total', total);
-    // alert(dataValues.elements[0].value);
-});
 
-// var finalText = document.getElementById("total");
-// finalText.innerHTML = "Total: " + firstName.value;
+    document.location.href = re;
+});
